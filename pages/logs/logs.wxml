@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view >
+    <view class="log-item">快递查询</view> 
+    <view>请选择快递公司：</view>
+      <van-dropdown-menu>
+        <van-dropdown-item value="1111" options="{{ option1 }}" />
+      </van-dropdown-menu>
+    <view class="box">
+      <input class="search"></input>
+      <button class="btn" bindtap="click">查询</button>
+    </view>
+</view>

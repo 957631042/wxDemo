@@ -1,0 +1,22 @@
+
+.log-item {
+  font-size: 30px;
+  color: rgb(240, 187, 12);
+  text-align: center;
+}
+.box {
+  display: flex;
+  margin: 20px;
+}
+.search {
+  border: 1px solid #eee;
+  width:80%;
+  height: 44px;
+}
+.btn {
+  /* height: 30px; */
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+
+}

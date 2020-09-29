@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view wx:if="{{dataList}}">
+	<text class="topWord">
+	Will，强烈推荐！！！
+	下拉加载更多.....
+	</text>
+	<view class="topHeight"></view>
+	<view class="box" wx:for="{{dataList}}"  wx:key="index">
+		<video class="boxVideo" wx:if="{item.video}" src="{{item.video}}" :show-fullscreen-btn="true"></video>
+		<view class="boxText">Will，推荐：{{item.text}}</view>
+	</view>
+</view>
